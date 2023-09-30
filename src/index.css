@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+    background-color: rgb(230,230,230);
+}
+
+#light{
+  background-color: "white";
+}
+#dark{
+  background-color: "black";
+}
+.name_user{
+  margin-left: 6px;
+  position: relative;
+  top:-2px;
+  font-size: 20px;
+  font-family: proxima;
+}
+.name_user,.topnav-right a{
+  margin-top:14px;
+
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgb(230,230,230);
+  height: 58px;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+/*..............................................main.....................................topnav-right*/
+/*main{
+position: absolute;
+top:12rem;
+left: 23rem;
+}*/
+
+.image_holder{
+
+}
+ .my_image{
+height: 24rem;
+  width: 24rem;
+  border-radius: 50%;
+  margin-left:12rem;
+}
+.my_info{
+ height: 24rem;
+  width: 20rem;
+margin: 1rem 0rem 0rem 3rem;
+}
+.introduction{
+  font-size: 63px;
+  line-height: 90px;
+}
+.aBit{
+  font-size: 23px;
+  line-height: 0px;
+}
+article{
+  font-size: 13px;
+}
+.svg_circle{
+  display: flex;
+  flex-direction: row;
+}
+.projects{
+  margin-top: 34px;
+  background-color: black;
+}
+
+/*........................................footer content ...........................................*/
+.footer_title{
+  margin:2rem 2rem 0rem 3rem;
+}
+
+
+
+.............................................
+
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+  height: 35px;
+}

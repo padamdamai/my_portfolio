@@ -1,0 +1,46 @@
+
+.container{
+	height: auto;
+	width:69%;
+
+	
+	}
+.portfolio_user{
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.short_information > p{
+            font-size: 13px;
+            line-height: 0.9;
+        }
+
+   .link{
+   	margin:34px 0px 0px 217px;
+   }
+  .link > a{
+  	font-size: 13px;
+  	text-decoration: none;
+  	color:black;
+  }
+.titleSkills,.titleProjects,.titleInterest,.certificates{
+	font-size: 17px;
+	color: red;
+}
+.listSkills{
+	display: flex;
+	flex-wrap: wrap;
+	width: 30rem;
+}
+table tr > td {
+	padding-left: 53px;
+}
+table tr  td > a {
+	padding-left: 53px;
+	text-decoration: none;
+	color:purple;
+}
+
+.project,.skills,.interest,.certificates{
+	margin-top:23px;
+}
