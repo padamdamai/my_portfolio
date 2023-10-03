@@ -1,5 +1,5 @@
 import React from "react";
- 
+  import {Link } from "react-router-dom";
 
 const styled = {
 	height:127,width:121,borderRadius:64,marginRight:32
@@ -26,8 +26,8 @@ export default function Resume(){
 			</div>
 
 			<div className="link"> 
-				<a href=""> LinkedIn </a><br/>
-				<a href=""> GitHub </a>
+				<Link to="" pathname="https://herewecode.io/blog/react-router-link-to-external-url/" target="_blank"> LinkedIn </Link><br/>
+				<Link to="" pathname="" target="_blank"> GitHub </Link>
 			 </div>
 		</div>
 
@@ -48,12 +48,10 @@ Diligent and creative computer engineer having skills in different programming l
            				 rel='noopener noreferrer' href="">College Website</a>
 						</td>
 						<td> <a target='_blank'
-           				 rel='noopener noreferrer' href="">Geographical data analysis</a></td>
+           				 rel='noopener noreferrer' href="">Geographical data analysis</a>
+           				 </td>
 					</tr>
-					<tr>
-						
-					
-					</tr>
+				
 				</table>
 
 			</div>
