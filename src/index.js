@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './resume.css';
 import './project.css';
+import './contact.css';
+
 
 import App from './App';
 import { BrowserRouter } from 'react-router-dom'
