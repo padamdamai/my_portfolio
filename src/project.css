@@ -1,0 +1,60 @@
+.container{
+	height:auto;
+	width:787px;
+	margin-top:6rem;
+}
+.title_project{
+	font-size: 23px;
+	text-align:center;
+	margin-top: -3rem;
+}
+.description{
+	font-size: 15px;
+/*	margin:12px 0px 0px 11rem;*/
+	text-align: center;
+	width: 37rem;
+}
+.card_container{
+	margin:7rem 7rem 2rem 2rem;
+/*	background-color: grey;*/
+
+}
+.card{
+	width:3rem;
+	height:auto;
+}
+.image{
+	width: 10rem;
+  height: 9rem;
+  border-radius: 50%;
+  margin:23px 10px 13px 43px;
+}
+.card{
+	height: auto;
+  width: 16rem;
+  margin:1rem 0rem 1rem 2rem;
+  border-radius: 20px;
+  }
+  .image_title{
+  	font-size: 15px;
+  	text-align: center;
+  	font-weight: bold;
+  	margin:0px 3rem;
+  }
+  .project_description{
+  	font-size: 13px;
+  	margin: 9px 2rem;
+  	border-radius: 5px;
+  }
+  .card :hover{
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+ .allCard{
+ 	background-color: black;
+ }
+.project_head{
+	position: absolute;
+	top:192px;
+	left:12rem;
+	margin:0rem 0px 0px 11rem;
+}

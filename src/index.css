@@ -24,6 +24,7 @@ body {
   overflow: hidden;
   background-color: rgb(230,230,230);
   height: 58px;
+  margin-right: 1rem;
 }
 
 .topnav a {
@@ -34,10 +35,19 @@ body {
   text-decoration: none;
 
 }
-
+.topnav .name_user:hover {
+  background-color: #ddd;
+  color: black;
+  border-radius: 23px;
+  height: 3rem;
+  width: 15rem;
+}
 .topnav a:hover {
   background-color: #ddd;
   color: black;
+  border-radius: 23px;
+  height: 3rem;
+  width: 7rem;
 }
 
 .topnav a.active {
