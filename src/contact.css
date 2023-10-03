@@ -1,0 +1,54 @@
+.container_main{
+	display: flex;
+	margin: 8rem 14rem;
+}
+.leftHandContainer{
+	margin-top: 5rem;
+}
+.rightHandContainer{
+padding-left: 0rem;	
+margin-top: -19px;
+}
+.helloFriend,.helpHow{
+	font-size: 37px;
+	font-weight: bold;
+	line-height: 0.9;
+}
+.mail_content{
+	margin:38px 14rem 0px 6rem;
+	line-height: 0.3;
+}
+.sendMessage{
+	font-size: 20px;
+	margin-bottom: 1rem;
+	text-align: center;
+	
+}
+.form{
+	background-color:rgb(230,230,230);;
+	border: 0.009px solid grey;
+	border-radius: 15px;
+	padding: 2rem;
+}
+.inputType{
+ margin: 20px 0px auto;
+  border-radius: 11px;
+  height: 36px;
+  width: 22rem;
+  text-align: center;
+  background-color:rgb(255,250,240);
+}
+.formSmallElement{
+	margin:1rem 0rem 0.5rem 0rem;
+}
+textArea{
+	border-radius: 9px;
+}
+.btn{
+	margin-top: 1rem;
+	background-color: #1F4788;
+	color: white;
+	height: 2rem;
+	width: 7rem;
+	text-align: center;
+}
