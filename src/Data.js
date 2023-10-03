@@ -1,17 +1,47 @@
 export default [
-{
+	{
 	id : 1,
-	name:"Responsive Web Design",
-	Issuer:"Coursera",
-	language:"HTML ,CSS , Javascript",
-	url:"https://padamdamai.github.io/html-css-js-project/"
+	title:"Geographical Data Analysis",
+	description:" Analyzing Geographical data using Numpy , panda ,matplotlib,seaborn",
+	image:"dataAnalysis.jpeg",
+	url:"https://github.com/padamdamai/DataAnalysis"
 },
 {
 	id : 2,
-	name:"Data Analysis",
-	Issuer:"freecodecamp.org",
-	language:"Numpy , panda ,matplotlib,seaborn",
+	title:"Responsive Web Design",
+	description:"Building Oxford Advanced Engineering College Website using HTML,CSS and JS",
+	image:"oaec.jpeg",
+	url:"https://padamdamai.github.io/html-css-js-project/"
+},
+	{
+	id : 1,
+	title:"Geographical Data Analysis",
+	description:"Building Oxford Advanced Engineering College Website using HTML,CSS and JS",
+	image:"dataAnalysis.jpeg",
 	url:"https://github.com/padamdamai/DataAnalysis"
+},
+{
+	id : 2,
+	title:"Responsive Web Design",
+	description:"Building Oxford Advanced Engineering College Website using HTML,CSS and JS",
+	image:"oaec.jpeg",
+	url:"https://padamdamai.github.io/html-css-js-project/"
+},
+	{
+	id : 1,
+	title:"Geographical Data Analysis",
+description:"Building Oxford Advanced Engineering College Website using HTML,CSS and JS",
+	image:"dataAnalysis.jpeg",
+	url:"https://github.com/padamdamai/DataAnalysis"
+},
+{
+	id : 2,
+	title:"Responsive Web Design",
+	description:"Building Oxford Advanced Engineering College Website using HTML,CSS and JS",
+	image:"oaec.jpeg",
+	url:"https://padamdamai.github.io/html-css-js-project/"
 }
+
+
 
 	]
