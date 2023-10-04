@@ -1,3 +1,6 @@
+import React from "react"
+import {FaGithub,FaLinkedin } from "react-icons/fa";
+
 
 const styled = {
 	height:127,width:121,borderRadius:64,marginRight:32
@@ -24,9 +27,9 @@ export default function Resume(){
 			</div>
 
 			<div className="link"> 
-				<a href="https://www.linkedin.com/in/padam-damai-570a0a272" rel="noopener" target="_blank"> LinkedIn </a>
-				<a href="https://github.com/padamdamai"  rel="noopener" target="_blank"> GitHub </a>
-			 </div>
+				<a href="https://www.linkedin.com/in/padam-damai-570a0a272" rel="noopener" target="_blank"> LinkedIn &nbsp;<FaLinkedin/> </a>
+				<a href="https://github.com/padamdamai"  rel="noopener" target="_blank"> GitHub &nbsp; <FaGithub/> </a>
+			 </div> &nbsp;
 		</div>
 
 		<div className="ShortDescription">  

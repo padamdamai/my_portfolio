@@ -6,7 +6,7 @@ export default function Project(props){
 		
 		
 				<div className="card_holder">
-					<a href="" style={{textDecoration:'none',color:"black"}}>
+					<a href={props.url} style={{textDecoration:'none',color:"black"}}>
 					<div className="card">
 						<div className="image_card"><img src={props.image} className="image"  alt="img"/> </div>	
 						<div className="image_title">{props.title} </div>	
