@@ -1,5 +1,3 @@
-import React from "react";
-  import {Link } from "react-router-dom";
 
 const styled = {
 	height:127,width:121,borderRadius:64,marginRight:32
@@ -26,8 +24,8 @@ export default function Resume(){
 			</div>
 
 			<div className="link"> 
-				<Link to="" pathname="https://herewecode.io/blog/react-router-link-to-external-url/" target="_blank"> LinkedIn </Link><br/>
-				<Link to="" pathname="" target="_blank"> GitHub </Link>
+				<a href="https://www.linkedin.com/in/padam-damai-570a0a272" rel="noopener" target="_blank"> LinkedIn </a>
+				<a href="https://github.com/padamdamai"  rel="noopener" target="_blank"> GitHub </a>
 			 </div>
 		</div>
 
@@ -44,11 +42,10 @@ Diligent and creative computer engineer having skills in different programming l
 
 				<table>
 					<tr>
-						<td> <a target='_blank'
-           				 rel='noopener noreferrer' href="">College Website</a>
+						<td> 
+						<a href="https://github.com/padamdamai/DataAnalysis" rel="noopener" target="_blank">Grographical Data Analysis</a>
 						</td>
-						<td> <a target='_blank'
-           				 rel='noopener noreferrer' href="">Geographical data analysis</a>
+						<td> <a href="https://padamdamai.github.io/Oxford-Advanced-Engineering-College_Website/" rel="noopener" target="_blank">College Website </a>
            				 </td>
 					</tr>
 				
@@ -105,12 +102,12 @@ Diligent and creative computer engineer having skills in different programming l
 
 				<table>
 					<tr>
-						<td><a href="">Responsive Web Design</a></td>
-						<td> <a href="">Git</a></td>
+						<td><a href="responsiveWebDesign.png" targ="_blank" rel="noopener">Responsive Web Design</a></td>
+						<td> <a href="gitcourse_certificates.png" targ="_blank" rel="noopener">Git</a></td>
 						
 					</tr>
 					<tr>
-						<td> <a href="">Data Analysis with python </a></td>
+						<td> <a href="dataanalysisCERTIFICATES.pdf" target="_blank" rel="noopener">Data Analysis with python </a></td>
 					</tr>
 				</table>
 
