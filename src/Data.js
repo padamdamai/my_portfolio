@@ -11,7 +11,7 @@ export default [
 	title:"Responsive Web Design",
 	description:"Building Oxford Advanced Engineering College Website using HTML,CSS and JS",
 	image:"oaec.jpeg",
-	url:"https://padamdamai.github.io/html-css-js-project/"
+	url:"https://padamdamai.github.io/Oxford-Advanced-Engineering-College_Website/"
 }
 
 

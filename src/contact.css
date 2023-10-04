@@ -15,7 +15,8 @@ margin-top: -19px;
 	line-height: 0.9;
 }
 .mail_content{
-	margin:38px 14rem 0px 6rem;
+	display: flex;
+	margin:38px 14rem 0px 0rem;
 	line-height: 0.3;
 }
 .sendMessage{
@@ -51,4 +52,10 @@ textArea{
 	height: 2rem;
 	width: 7rem;
 	text-align: center;
+}
+.mail_box{
+	width: 3rem;
+	height: 3rem;
+	margin-right: 1rem;
+  margin-top: -1rem;
 }
