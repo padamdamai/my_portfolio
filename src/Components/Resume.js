@@ -1,5 +1,11 @@
 import React from "react"
 import {FaGithub,FaLinkedin} from "react-icons/fa";
+import {BiLogoGmail} from "react-icons/bi"
+import {FaBirthdayCake} from "react-icons/fa"
+import {BsFillTelephoneForwardFill} from "react-icons/bs"
+
+
+
 
 
 const styled = {
@@ -16,12 +22,12 @@ export default function Resume(){
 		<div style={head}>
 			<div><img style={styled}src="pdn.jpeg" alt="padamdamai"/></div>
 
-			<div> 
+			<div className="head_top_content"> 
 				<p className="portfolio_user">Padam Damai </p>
 				<div className = "short_information"> 
 					<p>Working for Full stack Developer   </p>
 					<p> Nakhudol,lalitpur,Bagamati,Nepal</p>
-					<p>Decmber 10,2004  &nbsp; padamdamai888@gmail.com   &nbsp; 9808574458</p>
+					<p><FaBirthdayCake/>Decmber 10,2004  &nbsp; <BiLogoGmail/>padamdamai888@gmail.com   &nbsp;<BsFillTelephoneForwardFill/>9808574458</p>
 
 				</div>
 			</div>

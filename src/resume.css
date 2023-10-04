@@ -13,10 +13,12 @@
 .short_information > p{
             font-size: 13px;
             line-height: 0.9;
+            width: 21rem;
         }
 
    .link{
-   	margin:34px 0px 0px 217px;
+   	margin:34px 0px 0px 200px;
+   	width: 5rem;
    }
   .link > a{
   	font-size: 13px;
@@ -43,4 +45,7 @@ table tr  td > a {
 
 .project,.skills,.interest,.certificates{
 	margin-top:23px;
+}
+.head_top_content{
+	margin-left: -1rem;
 }

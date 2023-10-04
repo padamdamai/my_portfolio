@@ -1,4 +1,6 @@
 import React from "react";
+import {FaMailBulk} from "react-icons/fa";
+
 
 export default function Resume(){
 
@@ -11,9 +13,16 @@ export default function Resume(){
 					<p className="helpHow">Tell me how can we help <br/>you</p>
 
 					<div className="letCommunicate">Lets communicate with each other </div>
+
 					<div className="mail_content">
-						<p> Mail me at </p>
+
+					<div>  
+						<FaMailBulk className="mail_box"/>
+					</div>
+						<div>
+							<p> Mail me at </p>
 						<div>padamdamai888@gmail.com </div>
+						</div>
 					</div>
 				</div>
 
