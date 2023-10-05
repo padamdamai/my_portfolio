@@ -101,17 +101,35 @@ article{
 }
 
 /*........................................footer content ...........................................*/
-.footer_title{
-  margin:2rem 2rem 0rem 3rem;
+.footer_container{
+  background-color:#272727;
+  width:100%;
+  height:15rem;
+  margin-top: 3rem;
 }
-
-
-
-.............................................
-
-
-.topnav a.active {
-  background-color: #04AA6D;
+.container{
+  margin-top: 33rem;
+  background-color:lightblue;
+}
+.icon_container{
+  display: flex;
+  justify-content: center;
+  margin-left:1rem;
+}
+.github,.linkedIn,.mail{
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 29px;
+  margin: 3rem 1rem auto;
+}
+.text_container_footer{
+  margin-top: 40px;
   color: white;
-  height: 35px;
+  text-align: center;
+
+
+}
+.copyright{
+  color:#808080;
 }
