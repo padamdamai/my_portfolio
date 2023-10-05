@@ -1,7 +1,7 @@
 import React from "react"
-import {FaGithub} from "react-icons/fa";
-import {BiLogoGmail,BiLogoLinkedin} from "react-icons/bi"
-import {BsFillTelephoneForwardFill} from "react-icons/bs"
+import {TbBrandGithubFilled} from "react-icons/tb";
+import {BiLogoFacebook} from "react-icons/bi"
+import {TiSocialLinkedin} from "react-icons/ti"
 
 export default function Footer(){
 
@@ -10,9 +10,9 @@ export default function Footer(){
 		<div className="footer_container">
 
 			<div className="icon_container">
-				<FaGithub className="github"/>
-				<BiLogoLinkedin className="linkedIn"/>
-				<BiLogoGmail className="mail"/>
+				<a href="https://github.com/padamdamai" rel="noopener" target="_blank"><TbBrandGithubFilled className="github"/></a>
+				<a href="https://www.linkedin.com/in/padam-damai-570a0a272" rel="noopener" target="_blank"> <TiSocialLinkedin className="linkedIn"/></a>
+				<a href="https://www.facebook.com/zyrundo"  rel="noopener" target="_blank"><BiLogoFacebook className="fb"/></a>
 			</div>
 
 			<div className="text_container_footer">
