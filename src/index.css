@@ -116,7 +116,7 @@ article{
   justify-content: center;
   margin-left:1rem;
 }
-.github,.linkedIn,.mail{
+.github,.linkedIn,.fb{
   background-color: white;
   border-radius: 50%;
   width: 30px;
@@ -127,8 +127,9 @@ article{
   margin-top: 40px;
   color: white;
   text-align: center;
-
-
+}
+.icon_container > a{
+  color: black;
 }
 .copyright{
   color:#808080;
