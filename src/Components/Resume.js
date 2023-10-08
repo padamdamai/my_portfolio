@@ -8,26 +8,20 @@ import {BsFillTelephoneForwardFill} from "react-icons/bs"
 
 
 
-const styled = {
-	height:127,width:121,borderRadius:64,marginRight:32
-}
-const head = {
-	display:"flex",marginTop:91
-}
 
 export default function Resume(){
 
 	return <>
 	<div className="container">
-		<div style={head}>
-			<div><img style={styled}src="pdn.jpeg" alt="padamdamai"/></div>
+		<div className="inner_container">
+			<div><img  className="user_image_padam" src="pdn.jpeg" alt="padamdamai"/></div>
 
 			<div className="head_top_content"> 
 				<p className="portfolio_user">Padam Damai </p>
 				<div className = "short_information"> 
 					<p>Working for Full stack Developer   </p>
 					<p> Nakhudol,lalitpur,Bagamati,Nepal</p>
-					<p><FaBirthdayCake/>Decmber 10,2004  &nbsp; <BiLogoGmail/>padamdamai888@gmail.com   &nbsp;<BsFillTelephoneForwardFill/>9808574458</p>
+					<p className="icons_container"><FaBirthdayCake/>Decmber 10,2004  &nbsp; <BiLogoGmail/>padamdamai888@gmail.com   &nbsp;<BsFillTelephoneForwardFill/>9808574458</p>
 
 				</div>
 			</div>
@@ -42,7 +36,7 @@ export default function Resume(){
 Diligent and creative computer engineer having skills in different programming language like c 
 ,c++,python,php,sql and some frameworks and libraries like React ,Django,matplotlib and numby .
 		</div>
-		<hr/>
+		<hr className="horizontal_line"/>
 
 
 		<div className="project">
