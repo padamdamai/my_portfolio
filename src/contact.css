@@ -59,3 +59,30 @@ textArea{
 	margin-right: 1rem;
   margin-top: -1rem;
 }
+
+
+/*..................................................responsive..............................................*/
+
+@media (max-width:512px){
+
+.container_main {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 2rem;
+}
+.leftHandContainer {
+  margin: 5rem 2rem 6rem 3rem;
+}
+.inputType {
+  margin: -2rem 2rem 1rem auto;
+  width: 19rem;
+ 
+}
+.label_holder{
+	margin-left: -10px;
+}
+textArea {
+  border-radius: 9px;
+  width: 18rem;
+}
+}
