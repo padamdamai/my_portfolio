@@ -160,3 +160,37 @@ padding-left: 3px;
 }
 
 }
+
+
+/*..................................................responsive (galaxy $20 android 11)*/
+
+
+
+@media (max-width:512px){
+
+.inner_container{
+	display:flex;
+	flex-direction: column;
+	margin: 7rem 2rem -2rem 35rem;
+	 width: 23rem;
+}
+  .project, .skills, .interest, .certificates {
+    margin: 0rem 1rem 1rem 37rem;
+  }
+  .listInterest {
+    width: 22rem;
+  }
+    table tr td > a {
+    width: 9rem;
+  }
+   table tr > td {
+    margin-left: 175rem;
+    padding-left: 27px;
+    width: 85px;
+}
+.titleSkills, .titleProjects, .titleInterest, .certificates {
+  font-size: 17px;
+  color: red;
+  margin-left: 15px;
+}
+}

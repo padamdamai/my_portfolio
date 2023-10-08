@@ -86,3 +86,14 @@ textArea {
   width: 18rem;
 }
 }
+
+@media (max-width:512px){
+	  .container_main {
+    margin: 3rem 0rem;
+  }
+.form{
+	background-color:rgb(230,230,230);;
+	border: 0px;
+
+}
+	}

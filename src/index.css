@@ -157,7 +157,7 @@ article{
   color:#808080;
 }
 
-/*..........................................responsive...................*/
+/*..........................................responsive (galaxy note 20 android 11)...................*/
 
 @media (max-width:512px){
 .icons_menuAndCross{
@@ -221,3 +221,14 @@ height: 14rem;
 }
 
 }
+
+/*...........................................responsive((galaxy $20 android 11.)..................................*/
+@media (max-width:512px){
+.main_content{
+ display:flex;
+ flex-direction:column;
+ margin-top:123px;
+ margin-left:71px;
+}
+ 
+  }

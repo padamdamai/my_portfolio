@@ -57,7 +57,7 @@ box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 .project_head{
 	margin:10rem 0px 0px 1rem;
 }
-
+/*.........................................................responsive........................*/
 @media (max-width:512px){
 .project_head {
  margin:10rem 0px -15rem -1rem;
@@ -84,4 +84,17 @@ box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 	margin-bottom: 23rem;
 }
 
+}
+
+@media (max-width: 512px) {
+  .project_head {
+    margin: 10rem 0px -15rem -28px;
+    text-align: center;
+  }
+  .title_project {
+  margin-left: 28px;
+}
+  .card_main_container {
+    margin-left: 3rem;
+  }
 }

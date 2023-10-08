@@ -101,7 +101,7 @@ Diligent and creative computer engineer having skills in different programming l
 
 				<div className="certificates">
 			<p className="titleCertificates">Certificates </p>
-			<div className="listCertificates">
+			<div className="	">
 
 				<table>
 					<tr>
