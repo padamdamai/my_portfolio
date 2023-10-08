@@ -10,7 +10,7 @@
 
 	export default function Main(){
 		return <>
-		<main style={{display:"flex",flexDirection:"row",marginTop:57,marginLeft:100}}>
+		<main className="main_content">
 		<div className="image_holder">
 		<img className="my_image" src="pdn.jpeg" alt="personal_image"/>
 		</div>

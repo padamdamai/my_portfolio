@@ -18,14 +18,14 @@ const card= Data.map(data =>{return(
   )})
 
 const styled={
-  display:"flex",flexWrap:"wrap",marginTop:230,marginRight:48,marginBottom:96,marginLeft:80
+  display:"flex",flexWrap:"wrap",marginTop:230,marginRight:48,marginBottom:96,marginLeft:80,zIndex:-1
 }
 
 
 export default function App(){
 return <div>
   <Navbar/>
-  <Routes>
+   <Routes>
         <Route path="/" element={<Main/>} />
         <Route path="/projects" element={<div style={styled}>
           <div className="project_head">
@@ -44,7 +44,6 @@ return <div>
 
 
       </Routes>
-  <Footer/>
+  <Footer/> 
 </div>
 }
-/// 4rem 3rem 6rem 5rem
