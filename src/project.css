@@ -58,3 +58,21 @@ box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 	left:12rem;
 	margin:0rem 0px 0px 11rem;
 }
+
+
+
+@media (max-width:512px){
+.project_head {
+  position: absolute;
+  top: 152px;
+  left: -12rem;
+  text-align: center;
+}
+.description {
+  font-size: 15px;
+  margin: 12px 0px 40px 3rem;
+  text-align: center;
+  width: 22rem;
+  text-align: center;
+}
+}

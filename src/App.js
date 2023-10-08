@@ -17,9 +17,6 @@ const card= Data.map(data =>{return(
 />
   )})
 
-const styled={
-  display:"flex",flexWrap:"wrap",marginTop:230,marginRight:48,marginBottom:96,marginLeft:80,zIndex:-1
-}
 
 
 export default function App(){
@@ -27,7 +24,7 @@ return <div>
   <Navbar/>
    <Routes>
         <Route path="/" element={<Main/>} />
-        <Route path="/projects" element={<div style={styled}>
+        <Route path="/projects" element={<div className="project_top">
           <div className="project_head">
             <div className="title_project"> My Project </div>
             <div className="description"> 
@@ -35,7 +32,7 @@ return <div>
                 As more project you do more experience you will gain
              </div>
            </div>
-          {card}
+          <div className="card_main_container"> {card} </div>
         </div>}/>
         <Route path="/contact" element={<Contact/>} />
         <Route path="/resume" element={<Resume/>} />
