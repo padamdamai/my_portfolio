@@ -223,7 +223,7 @@ height: 14rem;
 }
 
 /*...........................................responsive((galaxy $20 android 11.)..................................*/
-@media (max-width:512px){
+@media (max-width:360px){
 .main_content{
  display:flex;
  flex-direction:column;

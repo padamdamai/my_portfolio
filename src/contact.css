@@ -87,7 +87,7 @@ textArea {
 }
 }
 
-@media (max-width:512px){
+@media (max-width:360px){
 	  .container_main {
     margin: 3rem 0rem;
   }
