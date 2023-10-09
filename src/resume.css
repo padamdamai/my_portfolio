@@ -166,7 +166,7 @@ padding-left: 3px;
 
 
 
-@media (max-width:512px){
+@media (max-width:360px){
 
 .inner_container{
 	display:flex;
@@ -193,4 +193,25 @@ padding-left: 3px;
   color: red;
   margin-left: 15px;
 }
+}
+
+
+/*..........................................responsive (galaxy note 20 android 11)...................*/
+
+@media (max-width:512px){
+.inner_container{
+	display:flex;
+	flex-direction: column;
+	margin: 7rem 2rem -2rem 35rem;
+	 width: 23rem;
+}
+.listInterest {
+    font-size: 13px;
+    width: 20rem;
+  
+  }
+  table tr td > a {
+        width: 10rem;
+   
+  }
 }

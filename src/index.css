@@ -232,3 +232,11 @@ height: 14rem;
 }
  
   }
+
+  /*...........................................responsive((iphone 12/13 mini IOS 14.6.)..................................*/
+@media (max-width:375px){
+.main_content{
+    margin-left: 75px;
+}
+ 
+  }

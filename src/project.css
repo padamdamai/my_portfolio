@@ -86,7 +86,7 @@ box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 
 }
 
-@media (max-width: 512px) {
+@media (max-width: 360px) {
   .project_head {
     margin: 10rem 0px -15rem -28px;
     text-align: center;
@@ -98,3 +98,15 @@ box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     margin-left: 3rem;
   }
 }
+
+/*..........................................responsive (galaxy note 20 android 11)...................*/
+
+@media (max-width:512px){
+.card_holder{
+  margin: 14rem 1rem -36rem -3rem;
+}
+  .container_main {
+    margin: 3rem 1rem;
+  }
+
+    }
