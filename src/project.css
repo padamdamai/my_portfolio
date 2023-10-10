@@ -125,3 +125,11 @@ box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   margin-top: 9rem;
 }
 }
+
+  /*...........................................responsive((iphone SE 2nd gen IOS 14.6)..................................*/
+@media (max-width:800px){
+
+.description {
+    margin: 12px 0px 40px 20rem;
+  }
+  }

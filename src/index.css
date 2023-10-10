@@ -270,3 +270,22 @@ article {
   width: 18rem;
 }
 }
+
+  /*...........................................responsive((iphone SE 2nd gen IOS 14.6)..................................*/
+@media (max-width:800px){
+  .main_content {
+    margin: 4rem 0rem 0rem 4rem;
+  }
+ .introduction {
+    margin-left: 2rem;
+  }
+    .my_image {
+    margin: 5rem 3rem 2rem 1rem;
+  }
+    .aBit {
+    margin-left: 2rem;
+  }
+  .svg_collector {
+  margin: 40px 1rem 0rem 2rem;
+}
+}
