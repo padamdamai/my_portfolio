@@ -1,9 +1,9 @@
 		import React from 'react';
 	 import { Link } from "react-router-dom";
 	
-	const styling = {
-		display:"flex",flexDirection:"row",marginTop:40
-	}
+	// const styling = {
+	// 	display:"flex",flexDirection:"row",marginTop:40
+	// }
 	const styled={
 		textDecoration:"none"
 	}
@@ -20,9 +20,9 @@
 		<div className="aBit">I am Padam Damai </div><br/>
 		<article>I am a Computer Engineer .i have been working for fullstack developers and building many projects.</article>
 
-		<div style={styling}> 
+		<div className="svg_collector"> 
 
-		<svg >
+		<svg>
 		<Link  to="projects" style={styled}>
 		<circle cx={50} cy={50} r={50} fill="#2B8A9A" />
 		<text x="23" y="50" >Projects</text>

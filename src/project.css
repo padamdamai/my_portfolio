@@ -110,3 +110,18 @@ box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   }
 
     }
+
+  /*...........................................responsive((kindle fire HDXL linux.)..................................*/
+@media (max-width:800px){
+
+.project_head {
+  margin-left: -17rem;
+}
+.title_project {
+  margin-left: 17rem;
+}
+.footer_container {
+  height: 35.5rem;
+  margin-top: 9rem;
+}
+}

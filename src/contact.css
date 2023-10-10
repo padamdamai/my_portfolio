@@ -97,3 +97,30 @@ textArea {
 
 }
 	}
+
+  /*...........................................responsive((kindle fire HDXL linux.)..................................*/
+@media (max-width:800px){
+
+.container_main {
+  display: flex;
+  margin: 4rem 0rem 0rem 11rem;
+  flex-direction: column;
+}
+.form {
+	width: 36rem;
+  margin: 6rem 0rem 2rem -2rem;
+}
+.inputType {
+  margin: 20px 0px auto 5rem;
+}
+.formSmallElement {
+  margin: 2rem 0rem 0.5rem 10rem;
+}
+textArea {
+  border-radius: 9px;
+  margin-left: 5rem;
+}
+.btn{
+	margin:2rem 0rem auto  13rem;
+}
+}
